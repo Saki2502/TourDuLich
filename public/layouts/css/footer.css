@@ -1,0 +1,37 @@
+footer {
+    background-color: #609966;
+    margin: 0;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.row {
+    justify-content: space-between;
+}
+
+.info {
+    border-bottom: 1px solid lightblue;
+}
+
+.social span {
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.social i {
+    padding-left: 8px;
+    color: hotpink;
+}
+
+a.hover:hover {
+    color: lightblue;
+}
+
+.img-g {
+    width: 120px;
+    height: 50px
+}
+
+footer .nav-link {
+    display: contents;
+}
