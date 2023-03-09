@@ -15,9 +15,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('master');
+    return view('index');
 });
 
 Route::get('/tourdulich', [
     TourdulichController::class,'index'
+]);
+
+Route::get('/login', function () {
+    return view('tourdulich.login');
+});
+
+Route::get('/tourdulich/login', [
+    TourdulichController::class,'login'
+]);
+
+Route::get('/tourdulich/register', [
+    TourdulichController::class,'register'
 ]);

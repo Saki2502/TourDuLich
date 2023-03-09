@@ -7,9 +7,17 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", "Helvetica Neue", sans-serif;
+    /* font-family: "Roboto", "Helvetica Neue", sans-serif; */
 }
 
 body {
     background-color: #EDF1D6;
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
 }

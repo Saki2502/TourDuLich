@@ -21,6 +21,8 @@
 
     <link rel="stylesheet" href="{{ asset('layouts/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('layouts/css/footer.css') }}">
+    <link rel="stylesheet" href="{{ asset('layouts/css/login.css') }}">
+    <link rel="stylesheet" href="{{ asset('layouts/css/register.css') }}">
 </head>
 
 <body>
